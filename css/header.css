@@ -1,0 +1,26 @@
+/**********/
+/* MOBIEL */
+/**********/
+
+header {
+    height: calc(100vh - 6em);
+    background-color: yellow;
+    grid-column: span 12;
+}
+
+header h1 > span {
+grid-column-start: 1;
+grid-column-end: 6;
+background-color: green;
+}
+
+header h1 span:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 span:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+}
+
