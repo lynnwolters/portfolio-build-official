@@ -2,44 +2,42 @@
 /* MOBIEL */
 /**********/
 
-nav {
+footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
     margin: 0 5em;
-    border-bottom: solid 0.1em var(--line-color);
+    border-top: solid 0.1em var(--line-color);
     height: 6em;
 }
 
-nav > a {
+footer p {
+    grid-column: span 6;
     color: var(--title-color);
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1em;
-    grid-column: span 6;
     display: flex;
     align-items: center;
 }
 
-nav ul {
+footer ul {
     grid-column: span 6;
+    display: flex;
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-nav ul li {
-    list-style: none;
-    margin-left: 0.8em;
-    border: solid 0.1em var(--line-color);
-    border-radius: 1000em;
-    padding: 0.2em 0.6em;
-    text-align: center;
-}
-
-nav ul li a {
-    text-decoration: none;
+footer ul li a {
     color: var(--title-color);
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 1em;
+    margin-left: 0.6em;
 }
+
+footer ul li a img {
+    margin-right: 0.4em;
+} 
