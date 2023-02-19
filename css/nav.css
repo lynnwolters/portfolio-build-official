@@ -3,11 +3,11 @@
 /**********/
 
 nav {
-    grid-column: span 12;
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2em;
+    margin: 0 5em;
+
     border-bottom: solid 0.1em var(--line-color);
     height: 6em;
 }
@@ -17,15 +17,25 @@ nav > a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1em;
+    grid-column: span 6;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    grid-column: span 6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 nav ul li {
     list-style: none;
-    display: inline;
     margin-left: 0.8em;
     border: solid 0.1em var(--line-color);
     border-radius: 1000em;
-    padding: 0.2em 0.6em
+    padding: 0.2em 0.6em;
+    text-align: center;
 }
 
 nav ul li a {

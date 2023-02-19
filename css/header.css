@@ -3,24 +3,38 @@
 /**********/
 
 header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2em;
+    margin: 0 5em;
+    
     height: calc(100vh - 6em);
-    background-color: yellow;
+}
+
+header h1 {
+    font-size: 12em;
+    color: var(--title-color);    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     grid-column: span 12;
 }
 
-header h1 > span {
-grid-column-start: 1;
-grid-column-end: 6;
-background-color: green;
-}
-
-header h1 span:nth-of-type(2) {
-    display: flex;
-    justify-content: center;
-}
-
-header h1 span:nth-of-type(3) {
+header h1 > span:nth-of-type(1) {
     display: flex;
     justify-content: space-between;
 }
 
+header h1 > span:nth-of-type(2) {
+    text-align: center;
+}
+
+header h1 > span:nth-of-type(3){
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 img {
+    display: flex;
+    margin: 0 auto;
+}

@@ -14,10 +14,7 @@
 }
 
 body {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 2em;
-    margin: 0 5em;
+    background-color: var(--background-color)
 }
 
 /*********/
@@ -31,6 +28,8 @@ body {
 /*********************/
 
 :root {
+    --background-color: #F4F4F4;
     --title-color: black;
+    --p-color: #656565;
     --line-color: black;
 }
