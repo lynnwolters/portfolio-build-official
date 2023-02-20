@@ -1,11 +1,11 @@
-/**********/
-/* MOBIEL */
-/**********/
+/***********/
+/* DESKTOP */
+/***********/
 
 main section:nth-of-type(5) {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 2em;
+    grid-column-gap: 2em; */
     height: calc(100vh - 6em);
     margin: 0 5em;
     display: flex;
@@ -43,6 +43,35 @@ main section:nth-of-type(5) img {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-right: 2em;
     margin-bottom: 2em;
+    width: 15%;
+    height: auto;
+}
+
+/**********/
+/* TABLET */
+/**********/
+
+@media (min-width: 48em) and (max-width: 64em) {
+    main section:nth-of-type(5) {
+        margin: 0 2em;
+    }
+
+    main section:nth-of-type(5) h2 {
+        font-size: 1.4em;
+    }
+
+    main section:nth-of-type(5) h3 {
+        margin: 0.8em 0;
+        font-size: 5em;
+    }
+
+    main section:nth-of-type(5) img {
+        width: 25%;
+        height: auto;
+    }
+
+    main section:nth-of-type(5) p {
+        font-size: 0.8em;
+    }
 }

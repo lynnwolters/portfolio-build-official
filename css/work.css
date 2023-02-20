@@ -1,32 +1,30 @@
-/**********/
-/* MOBIEL */
-/**********/
+/***********/
+/* DESKTOP */
+/***********/
 
 main section:nth-of-type(4) {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 2em;
-    height: 100vh;
+    grid-template-rows: 1fr 3fr;
+    grid-column-gap: 2em; */
+    /* height: 100vh; */
 }
 
 
 main section:nth-of-type(4) h2 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column: span 12;
+    /* grid-row: span 1;
+    grid-column: span 12; */
     font-size: 4em;
-    height: auto;
+    height: fit-content;
     line-height: 1em;
     color: var(--title-color);  
     text-transform: uppercase; 
-    margin: 0 1.2em;
+    margin: 2em 1.2em;
 }
 
 main section:nth-of-type(4) ul {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column: span 12;
+    /* grid-row: span 3 ;
+    grid-column: span 12; */
     list-style: none;
 }
 
@@ -40,7 +38,7 @@ main section:nth-of-type(4) ul li {
 }
 
 main section:nth-of-type(4) ul li a {
-    height: 12em;
+    height: 10em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,4 +55,27 @@ main section:nth-of-type(4) ul li a p {
     text-transform: uppercase;
     font-size: 1em;
     text-align: right;
+}
+
+/**********/
+/* TABLET */
+/**********/
+
+@media (min-width: 48em) {
+    main section:nth-of-type(4) h2 {
+        margin: 1em 0.8em;
+        font-size: 3em;
+    }
+
+    main section:nth-of-type(4) ul li {
+        padding: 0 2em;
+    }
+
+    main section:nth-of-type(4) ul li a h3 {
+        font-size: 1.4em;
+    }
+
+    main section:nth-of-type(4) ul li a p {
+        font-size: 0.8em;
+    }
 }

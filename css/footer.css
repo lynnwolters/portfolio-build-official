@@ -1,6 +1,6 @@
-/**********/
-/* MOBIEL */
-/**********/
+/***********/
+/* DESKTOP */
+/***********/
 
 footer {
     display: grid;
@@ -41,3 +41,13 @@ footer ul li a {
 footer ul li a img {
     margin-right: 0.4em;
 } 
+
+/**********/
+/* TABLET */
+/**********/
+
+@media (min-width: 48em) and (max-width: 64em) {
+    footer {
+        margin: 0 2em;
+    }
+}
