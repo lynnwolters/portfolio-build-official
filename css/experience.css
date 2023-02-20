@@ -7,7 +7,7 @@ main section:nth-of-type(3) {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 3fr;
     grid-column-gap: 2em;
-    margin: 6em 5em;
+    margin: 6em 8em;
     /* height: 100vh; */
 }
 
@@ -21,6 +21,7 @@ main section:nth-of-type(3) h2 {
     text-transform: uppercase;  
     text-align: center;
     margin-bottom: 2em;
+    font-family: 'MoglanDemo';
 }
 
 main section:nth-of-type(3) ul {
@@ -63,9 +64,10 @@ main section:nth-of-type(3) ul li p {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 64em) {
+@media (min-width: 48em) and (max-width: 80em) {
     main section:nth-of-type(3) {
-        margin: 3em 2em;
+        margin: 3em 4em;
+        grid-column-gap: 0.8em;
     }
 
     main section:nth-of-type(3) h2 {
@@ -73,6 +75,6 @@ main section:nth-of-type(3) ul li p {
     }
 
     main section:nth-of-type(3) ul li p {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 }

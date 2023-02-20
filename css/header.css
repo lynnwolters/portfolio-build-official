@@ -6,7 +6,7 @@ header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
-    margin: 0 5em;
+    margin: 0 8em;
     height: calc(100vh - 6em);
 }
 
@@ -19,9 +19,21 @@ header h1 {
     grid-column: span 12;
 }
 
+header h1 span {
+    font-family: 'MoglanDemo';
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
 header h1 > span:nth-of-type(1) {
     display: flex;
     justify-content: space-between;
+}
+
+header h1 > span:nth-of-type(1) > span:first-of-type {
+    font-family: 'Red Hat Display', serif;
+    font-weight: 400;
+    line-height: 0.6em;
 }
 
 header h1 > span:nth-of-type(2) {
@@ -42,9 +54,10 @@ header h1 img {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 64em) {
+@media (min-width: 48em) and (max-width: 80em) {
     header {
-        margin: 0 2em;
+        margin: 0 4em;
+        grid-column-gap: 0.8em;
     }
 
     header h1 {

@@ -6,8 +6,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
-    margin: 0 5em;
-    border-top: solid 0.1em var(--line-color);
+    margin: 0 8em;
+    border-top: dotted 0.1em var(--line-color);
     height: 6em;
 }
 
@@ -46,8 +46,9 @@ footer ul li a img {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 64em) {
+@media (min-width: 48em) and (max-width: 80em) {
     footer {
-        margin: 0 2em;
+        margin: 0 4em;
+        grid-column-gap: 0.8em;
     }
 }

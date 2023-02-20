@@ -6,8 +6,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
-    margin: 0 5em;
-    border-bottom: solid 0.1em var(--line-color);
+    margin: 0 8em;
+    /* border-bottom: dotted 0.1em var(--line-color); */
     height: 6em;
 }
 
@@ -35,6 +35,7 @@ nav ul li {
     border-radius: 1000em;
     padding: 0.2em 0.6em;
     text-align: center;
+    background-color: var(--background-color);
 }
 
 nav ul li a {
@@ -48,8 +49,9 @@ nav ul li a {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 64em) {
+@media (min-width: 48em) and (max-width: 80em) {
     nav {
-        margin: 0 2em;
+        margin: 0 4em;
+        grid-column-gap: 0.8em;
     }
 }

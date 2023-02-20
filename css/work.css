@@ -19,7 +19,8 @@ main section:nth-of-type(4) h2 {
     line-height: 1em;
     color: var(--title-color);  
     text-transform: uppercase; 
-    margin: 2em 1.2em;
+    margin: 2em 2em;
+    font-family: 'MoglanDemo';
 }
 
 main section:nth-of-type(4) ul {
@@ -29,12 +30,12 @@ main section:nth-of-type(4) ul {
 }
 
 main section:nth-of-type(4) ul li:nth-of-type(1) {
-    border-top: solid 0.1em var(--line-color);
+    border-top: dotted 0.1em var(--line-color);
 }
 
 main section:nth-of-type(4) ul li {
-    border-bottom: solid 0.1em var(--line-color);
-    padding: 0 5em;
+    border-bottom: dotted 0.1em var(--line-color);
+    padding: 0 8em;
 }
 
 main section:nth-of-type(4) ul li a {
@@ -61,18 +62,18 @@ main section:nth-of-type(4) ul li a p {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) {
+@media (min-width: 48em) and (max-width: 80em) {
     main section:nth-of-type(4) h2 {
-        margin: 1em 0.8em;
+        margin: 1em 1.2em;
         font-size: 3em;
     }
 
     main section:nth-of-type(4) ul li {
-        padding: 0 2em;
+        padding: 0 4em;
     }
 
     main section:nth-of-type(4) ul li a h3 {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
     main section:nth-of-type(4) ul li a p {

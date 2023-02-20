@@ -7,7 +7,7 @@ main section:nth-of-type(5) {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em; */
     height: calc(100vh - 6em);
-    margin: 0 5em;
+    margin: 0 8em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,10 +27,12 @@ main section:nth-of-type(5) h3 {
     text-transform: uppercase; 
     text-align: center;
     margin: 2em 0;
+    font-family: 'MoglanDemo';
 }
 
 main section:nth-of-type(5) h3 a {
     color: var(--title-color);  
+    font-family: 'MoglanDemo';
 }
 
 main section:nth-of-type(5) p {
@@ -52,9 +54,9 @@ main section:nth-of-type(5) img {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 64em) {
+@media (min-width: 48em) and (max-width: 80em) {
     main section:nth-of-type(5) {
-        margin: 0 2em;
+        margin: 0 4em;
     }
 
     main section:nth-of-type(5) h2 {
@@ -68,7 +70,6 @@ main section:nth-of-type(5) img {
 
     main section:nth-of-type(5) img {
         width: 25%;
-        height: auto;
     }
 
     main section:nth-of-type(5) p {
