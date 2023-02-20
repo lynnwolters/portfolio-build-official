@@ -26,7 +26,7 @@ body {
     position: relative;
 }
 
-.yellow-blob {
+.yellow-blob-top {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -35,18 +35,43 @@ body {
     height: 48em; 
     background: radial-gradient(#FFE923, #F4F4F4);
     filter: blur(12em);
+    border-radius: 1000em;
 }
 
-.pink-blob {
+.pink-blob-middle {
     position: absolute;
     z-index: -1;
     left: 0;
-    /* bottom: 0; */
     width: 48em; 
     height: 48em; 
     background: radial-gradient(#FF64FF, #F4F4F4);
     filter: blur(12em);
+    border-radius: 1000em;
 }
+
+.yellow-blob-bottom {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    width: 48em; 
+    height: 48em; 
+    background: radial-gradient(#FFE923, #F4F4F4);
+    filter: blur(12em);
+    border-radius: 1000em;
+}
+
+/* .pink-blob-bottom {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 24em; 
+    height: 24em; 
+    background: radial-gradient(#FF64FF, #F4F4F4);
+    filter: blur(6em);
+} */
 
 /*********/
 /* FONTS */
