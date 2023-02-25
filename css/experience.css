@@ -64,7 +64,7 @@ main section:nth-of-type(3) ul li p {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 80em) {
+@media (max-width: 80em) {
     main section:nth-of-type(3) {
         margin: 3em 4em;
         grid-column-gap: 0.8em;
@@ -77,4 +77,30 @@ main section:nth-of-type(3) ul li p {
     main section:nth-of-type(3) ul li p {
         font-size: 1.6em;
     }
+}
+
+/****************/
+/* TABLET SMALL */
+/****************/
+
+@media (max-width: 48em) {
+    main section:nth-of-type(3) {
+        margin: 3em 1.8em;
+    }
+
+    main section:nth-of-type(3) h2 {
+        font-size: 2.8em;
+    }
+
+    main section:nth-of-type(3) ul li p {
+        font-size: 1.2em;
+    }
+}
+
+/**********/
+/* MOBILE */
+/**********/
+
+@media (max-width: 40em) {
+    
 }

@@ -54,7 +54,7 @@ main section:nth-of-type(5) img {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 80em) {
+@media (max-width: 80em) {
     main section:nth-of-type(5) {
         margin: 0 4em;
     }
@@ -75,4 +75,34 @@ main section:nth-of-type(5) img {
     main section:nth-of-type(5) p {
         font-size: 0.8em;
     }
+}
+
+/****************/
+/* TABLET SMALL */
+/****************/
+
+@media (max-width: 48em) {
+    main section:nth-of-type(5) {
+        margin: 0 1.8em;
+    }
+
+    main section:nth-of-type(5) h2 {
+        font-size: 1.2em;
+    }
+
+    main section:nth-of-type(5) h3 {
+        font-size: 4em;
+    }
+
+    main section:nth-of-type(5) p {
+        font-size: 0.7em;
+    }
+}
+
+/**********/
+/* MOBILE */
+/**********/
+
+@media (max-width: 40em) {
+    
 }

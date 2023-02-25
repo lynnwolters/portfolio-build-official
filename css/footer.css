@@ -46,9 +46,35 @@ footer ul li a img {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 80em) {
+@media (max-width: 80em) {
     footer {
         margin: 0 4em;
         grid-column-gap: 0.8em;
     }
+}
+
+/****************/
+/* TABLET SMALL */
+/****************/
+
+@media (max-width: 48em) {
+    footer {
+        margin: 0 1.8em;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+
+    footer ul li a {
+        font-size: 0.8em;
+    }
+}
+
+/**********/
+/* MOBILE */
+/**********/
+
+@media (max-width: 40em) {
+    
 }

@@ -54,7 +54,7 @@ header h1 img {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 80em) {
+@media (max-width: 80em) {
     header {
         margin: 0 4em;
         grid-column-gap: 0.8em;
@@ -63,4 +63,27 @@ header h1 img {
     header h1 {
         font-size: 8em;
     }
+}
+
+/****************/
+/* TABLET SMALL */
+/****************/
+
+@media (max-width: 48em) {
+    header {
+        margin: 0 1.8em;
+        max-width: 100%;
+    }
+
+    header h1 {
+        font-size: 6em;
+    }
+}
+
+/**********/
+/* MOBILE */
+/**********/
+
+@media (max-width: 40em) {
+    
 }

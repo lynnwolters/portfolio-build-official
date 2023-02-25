@@ -49,9 +49,39 @@ nav ul li a {
 /* TABLET */
 /**********/
 
-@media (min-width: 48em) and (max-width: 80em) {
+@media (max-width: 80em) {
     nav {
         margin: 0 4em;
         grid-column-gap: 0.8em;
     }
+}
+
+/****************/
+/* TABLET SMALL */
+/****************/
+
+@media (max-width: 48em) {
+    nav {
+        margin: 0 1.8em;
+    }
+
+    nav > a {
+        font-size: 0.8em;
+    }
+
+    nav ul li {
+        padding: 0.1em 0.5em;
+    }
+
+    nav ul li a {
+        font-size: 0.8em;
+    }
+}
+
+/**********/
+/* MOBILE */
+/**********/
+
+@media (max-width: 40em) {
+    
 }
