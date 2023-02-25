@@ -7,7 +7,6 @@ body > nav:nth-of-type(1) {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
     margin: 0 8em;
-    /* border-bottom: dotted 0.1em var(--line-color); */
     height: 6em;
 }
 
@@ -157,6 +156,16 @@ body > nav:nth-of-type(1) ul li a {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        list-style: none;
+    }
+
+    body nav:nth-of-type(2) > nav ul li a {
+        font-size: 4em;
+        line-height: 2em;
+        color: var(--title-color);  
+        text-transform: uppercase; 
+        font-family: 'MoglanDemo';
+        text-decoration: none;
     }
 
     body nav:nth-of-type(2) > nav.open {
@@ -193,5 +202,9 @@ body > nav:nth-of-type(1) ul li a {
     body nav:nth-of-type(2) > nav button {
         margin-right: 1.2em;
         font-size: 0.7em;
+    }
+
+    body nav:nth-of-type(2) > nav ul li a {
+        font-size: 3em;
     }
 }
