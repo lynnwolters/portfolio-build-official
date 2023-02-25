@@ -36,7 +36,7 @@ main section:nth-of-type(5) h3 a {
 }
 
 main section:nth-of-type(5) p {
-    color: var(--title-color);
+    color: var(--p-color);
     text-transform: uppercase;
     font-size: 1em;
 }
@@ -105,4 +105,12 @@ main section:nth-of-type(5) img {
 
 @media (max-width: 40em) {
     
+}
+
+/****************/
+/* MOBILE SMALL */
+/****************/
+
+@media (max-width: 30em) {
+
 }

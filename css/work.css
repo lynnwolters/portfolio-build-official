@@ -30,11 +30,11 @@ main section:nth-of-type(4) ul {
 }
 
 main section:nth-of-type(4) ul li:nth-of-type(1) {
-    border-top: dotted 0.1em var(--line-color);
+    border-top: dotted 0.15em var(--line-color);
 }
 
 main section:nth-of-type(4) ul li {
-    border-bottom: dotted 0.1em var(--line-color);
+    border-bottom: dotted 0.15em var(--line-color);
     padding: 0 8em;
 }
 
@@ -109,5 +109,15 @@ main section:nth-of-type(4) ul li a p {
 /**********/
 
 @media (max-width: 40em) {
-    
+    main section:nth-of-type(4) ul li a {
+        height: 8em;
+    }
+}
+
+/****************/
+/* MOBILE SMALL */
+/****************/
+
+@media (max-width: 30em) {
+
 }

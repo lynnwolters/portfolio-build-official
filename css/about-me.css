@@ -90,5 +90,29 @@ main section:nth-of-type(1) p {
 /**********/
 
 @media (max-width: 40em) {
+    main section:nth-of-type(1) p {
+        display: none;
+    }
+
+    main section:nth-of-type(1) .profile-picture-container {
+        grid-column: span 12;
+        height: 75%;
+        width: 100%;
+    }
     
+    main section:nth-of-type(1) .profile-picture {
+        border-radius: 6em;
+    }
+    
+    main section:nth-of-type(1) .badge {
+        width: 35%;
+    }
+}
+
+/****************/
+/* MOBILE SMALL */
+/****************/
+
+@media (max-width: 30em) {
+
 }

@@ -23,6 +23,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .yellow-blob-top {
@@ -60,17 +61,77 @@ body {
     border-radius: 1000em;
 }
 
-/* .pink-blob-bottom {
-    position: absolute;
-    z-index: -1;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    width: 24em; 
-    height: 24em; 
-    background: radial-gradient(#FF64FF, #F4F4F4);
-    filter: blur(6em);
-} */
+/**********/
+/* TABLET */
+/**********/
+
+@media (max-width: 80em) {
+    .yellow-blob-top {
+        width: 40em; 
+        height: 40em; 
+        filter: blur(12em);
+    }
+    
+    .pink-blob-middle {
+        width: 40em; 
+        height: 40em; 
+        filter: blur(12em);
+    }
+    
+    .yellow-blob-bottom {
+        width: 40em; 
+        height: 40em; 
+        filter: blur(12em);
+    }
+}
+
+/****************/
+/* TABLET SMALL */
+/****************/
+
+@media (max-width: 48em) {
+    .yellow-blob-top {
+        width: 32em; 
+        height: 32em; 
+        filter: blur(10em);
+    }
+    
+    .pink-blob-middle {
+        width: 32em; 
+        height: 32em; 
+        filter: blur(10em);
+    }
+    
+    .yellow-blob-bottom {
+        width: 32em; 
+        height: 32em; 
+        filter: blur(10em);
+    }
+}
+
+/**********/
+/* MOBILE */
+/**********/
+
+@media (max-width: 40em) {
+    .yellow-blob-top {
+        width: 24em; 
+        height: 24em; 
+        filter: blur(8em);
+    }
+    
+    .pink-blob-middle {
+        width: 24em; 
+        height: 24em; 
+        filter: blur(8em);
+    }
+    
+    .yellow-blob-bottom {
+        width: 24em; 
+        height: 24em; 
+        filter: blur(8em);
+    }
+}
 
 /*********/
 /* FONTS */

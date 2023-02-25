@@ -85,5 +85,19 @@ header h1 img {
 /**********/
 
 @media (max-width: 40em) {
-    
+    header {
+        height: 50vh;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+}
+
+/****************/
+/* MOBILE SMALL */
+/****************/
+
+@media (max-width: 30em) {
+
 }
