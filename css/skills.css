@@ -40,7 +40,7 @@ main section:nth-of-type(2) ul li:before {
     height: 2em;
     width: 2em;
     background-size: 1.2em;
-    background-image: url('/img/list-item-image.svg');
+    background-image: url('../img/list-item-image.svg');
     background-repeat: no-repeat;
 }
 
