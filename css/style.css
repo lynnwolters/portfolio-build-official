@@ -34,7 +34,7 @@ body {
     width: 48em; 
     height: 48em; 
     background: -webkit-radial-gradient(#FFE923, #F4F4F4);
-    /* filter: blur(12em); */
+    filter: blur(12em);
     border-radius: 1000em;
 }
 
@@ -69,7 +69,7 @@ body {
     .yellow-blob-top {
         width: 40em; 
         height: 40em; 
-        /* filter: blur(12em); */
+        filter: blur(12em);
     }
     
     .pink-blob-middle {
@@ -93,7 +93,7 @@ body {
     .yellow-blob-top {
         width: 32em; 
         height: 32em; 
-        /* filter: blur(10em); */
+        filter: blur(10em);
     }
     
     .pink-blob-middle {
@@ -117,7 +117,7 @@ body {
     .yellow-blob-top {
         width: 20em; 
         height: 20em; 
-        /* filter: blur(8em); */
+        filter: blur(8em);
     }
     
     .pink-blob-middle {
@@ -141,7 +141,7 @@ body {
     .yellow-blob-top {
         width: 16em; 
         height: 16em; 
-        /* filter: blur(6em); */
+        filter: blur(6em);
     }
     
     .pink-blob-middle {
