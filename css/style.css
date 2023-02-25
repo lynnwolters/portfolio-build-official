@@ -115,20 +115,20 @@ body {
 
 @media (max-width: 40em) {
     .yellow-blob-top {
-        width: 24em; 
-        height: 24em; 
+        width: 20em; 
+        height: 20em; 
         filter: blur(8em);
     }
     
     .pink-blob-middle {
-        width: 24em; 
-        height: 24em; 
+        width: 20em; 
+        height: 20em; 
         filter: blur(8em);
     }
     
     .yellow-blob-bottom {
-        width: 24em; 
-        height: 24em; 
+        width: 20em; 
+        height: 20em;  
         filter: blur(8em);
     }
 }
