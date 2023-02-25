@@ -33,7 +33,7 @@ body {
     right: 0;
     width: 48em; 
     height: 48em; 
-    background-image: radial-gradient(#FFE923, #F4F4F4);
+    background: -webkit-radial-gradient(#FFE923, #F4F4F4);
     filter: blur(12em);
     border-radius: 1000em;
 }
@@ -44,7 +44,7 @@ body {
     left: 0;
     width: 48em; 
     height: 48em; 
-    background-image: radial-gradient(#FF64FF, #F4F4F4);
+    background: -webkit-radial-gradient(#FF64FF, #F4F4F4);
     filter: blur(12em);
     border-radius: 1000em;
 }
@@ -56,7 +56,7 @@ body {
     right: 0;
     width: 48em; 
     height: 48em; 
-    background-image: radial-gradient(#FFE923, #F4F4F4);
+    background: -webkit-radial-gradient(#FFE923, #F4F4F4);
     filter: blur(12em);
     border-radius: 1000em;
 }
