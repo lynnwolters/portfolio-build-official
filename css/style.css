@@ -33,7 +33,7 @@ body {
     right: 0;
     width: 48em; 
     height: 48em; 
-    background: radial-gradient(#FFE923, #F4F4F4);
+    background-image: radial-gradient(#FFE923, #F4F4F4);
     filter: blur(12em);
     border-radius: 1000em;
 }
@@ -44,7 +44,7 @@ body {
     left: 0;
     width: 48em; 
     height: 48em; 
-    background: radial-gradient(#FF64FF, #F4F4F4);
+    background-image: radial-gradient(#FF64FF, #F4F4F4);
     filter: blur(12em);
     border-radius: 1000em;
 }
@@ -56,7 +56,7 @@ body {
     right: 0;
     width: 48em; 
     height: 48em; 
-    background: radial-gradient(#FFE923, #F4F4F4);
+    background-image: radial-gradient(#FFE923, #F4F4F4);
     filter: blur(12em);
     border-radius: 1000em;
 }
@@ -67,21 +67,18 @@ body {
 
 @media (max-width: 80em) {
     .yellow-blob-top {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 40em; 
         height: 40em; 
         filter: blur(12em);
     }
     
     .pink-blob-middle {
-        background: radial-gradient(#FF64FF, #F4F4F4);
         width: 40em; 
         height: 40em; 
         filter: blur(12em);
     }
     
     .yellow-blob-bottom {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 40em; 
         height: 40em; 
         filter: blur(12em);
@@ -94,21 +91,18 @@ body {
 
 @media (max-width: 48em) {
     .yellow-blob-top {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 32em; 
         height: 32em; 
         filter: blur(10em);
     }
     
     .pink-blob-middle {
-        background: radial-gradient(#FF64FF, #F4F4F4);
         width: 32em; 
         height: 32em; 
         filter: blur(10em);
     }
     
     .yellow-blob-bottom {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 32em; 
         height: 32em; 
         filter: blur(10em);
@@ -121,21 +115,18 @@ body {
 
 @media (max-width: 40em) {
     .yellow-blob-top {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 20em; 
         height: 20em; 
         filter: blur(8em);
     }
     
     .pink-blob-middle {
-        background: radial-gradient(#FF64FF, #F4F4F4);
         width: 20em; 
         height: 20em; 
         filter: blur(8em);
     }
     
     .yellow-blob-bottom {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 20em; 
         height: 20em;  
         filter: blur(8em);
@@ -148,21 +139,18 @@ body {
 
 @media (max-width: 22em) {
     .yellow-blob-top {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 16em; 
         height: 16em; 
         filter: blur(6em);
     }
     
     .pink-blob-middle {
-        background: radial-gradient(#FF64FF, #F4F4F4);
         width: 16em; 
         height: 16em; 
         filter: blur(6em);
     }
     
     .yellow-blob-bottom {
-        background: radial-gradient(#FFE923, #F4F4F4);
         width: 16em; 
         height: 16em; 
         filter: blur(6em);
