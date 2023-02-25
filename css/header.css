@@ -98,6 +98,12 @@ header h1 img {
 /* MOBILE SMALL */
 /****************/
 
-@media (max-width: 30em) {
+@media (max-width: 22em) {
+    header {
+        margin: 0 1.2em;
+    }
 
+    header h1 {
+        font-size: 3em;
+    }
 }

@@ -111,6 +111,20 @@ main section:nth-of-type(5) img {
 /* MOBILE SMALL */
 /****************/
 
-@media (max-width: 30em) {
+@media (max-width: 22em) {
+    main section:nth-of-type(5) {
+        margin: 0 1.2em;
+    }
 
+    main section:nth-of-type(5) h2 {
+        font-size: 1em;
+    }
+
+    main section:nth-of-type(5) h3 {
+        font-size: 3em;
+    }
+
+    main section:nth-of-type(5) p {
+        font-size: 0.6em;
+    }
 }

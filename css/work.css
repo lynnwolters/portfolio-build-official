@@ -118,6 +118,23 @@ main section:nth-of-type(4) ul li a p {
 /* MOBILE SMALL */
 /****************/
 
-@media (max-width: 30em) {
+@media (max-width: 22em) {
+    main section:nth-of-type(4) h2 {
+        font-size: 2em;
+    }
+    
+    main section:nth-of-type(4) ul li {
+        padding: 0 1.2em;
+    }
+    main section:nth-of-type(4) ul li a {
+        height: 6em;
+    }
 
+    main section:nth-of-type(4) ul li a h3 {
+        font-size: 1em;
+    }
+
+    main section:nth-of-type(4) ul li a p {
+        font-size: 0.6em;
+    }
 }

@@ -133,6 +133,30 @@ body {
     }
 }
 
+/****************/
+/* MOBILE SMALL */
+/****************/
+
+@media (max-width: 22em) {
+    .yellow-blob-top {
+        width: 16em; 
+        height: 16em; 
+        filter: blur(6em);
+    }
+    
+    .pink-blob-middle {
+        width: 16em; 
+        height: 16em; 
+        filter: blur(6em);
+    }
+    
+    .yellow-blob-bottom {
+        width: 16em; 
+        height: 16em; 
+        filter: blur(6em);
+    }
+}
+
 /*********/
 /* FONTS */
 /*********/
