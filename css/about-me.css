@@ -105,7 +105,7 @@ main section:nth-of-type(1) p {
     }
     
     main section:nth-of-type(1) .badge {
-        width: 35%;
+        border: solid 0.09em var(--line-color);
     }
 }
 
@@ -116,9 +116,5 @@ main section:nth-of-type(1) p {
 @media (max-width: 22em) {
     main section:nth-of-type(1) {
         margin: 0 1.2em;
-    }
-
-    main section:nth-of-type(1) .badge {
-        width: 45%;
     }
 }

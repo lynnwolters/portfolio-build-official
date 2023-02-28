@@ -27,6 +27,10 @@
     text-rendering: optimizeLegibility;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 a, button {
     cursor: pointer;
 }
