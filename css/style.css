@@ -42,12 +42,13 @@ body {
 
 .yellow-blob-top {
     position: absolute;
+    transform: translate(50%, 0%);
     z-index: -1;
     top: 0;
     right: 0;
     width: 48em; 
     height: 48em; 
-    background: -webkit-radial-gradient(#FFE923, #F4F4F4);
+    background: radial-gradient(rgba(255, 233, 35, 0) 0%, rgba(244, 244, 244, 0) 50%);
     border-radius: 1000em;
 }
 
@@ -57,7 +58,6 @@ body {
     left: 0;
     width: 48em; 
     height: 48em; 
-    background: -webkit-radial-gradient(#FF64FF, #F4F4F4);
     border-radius: 1000em;
 }
 
@@ -68,7 +68,6 @@ body {
     right: 0;
     width: 48em; 
     height: 48em; 
-    background: -webkit-radial-gradient(#FFE923, #F4F4F4);
     border-radius: 1000em;
 }
 
@@ -161,8 +160,10 @@ body {
 /*********************/
 
 :root {
-    --background-color: #F4F4F4;
-    --title-color: #232323;
-    --p-color: #656565;
-    --line-color: #232323;
+    --background-color: rgb(244 244 244);
+    --title-color: rgb(35 35 35);
+    --p-color: rgb(101 101 101);
+    --line-color: rgb(35 35 35);
+    --accent-color-1: rgb(255 233 35);
+    --accent-color-2: rgb(255 100 255);
 }
