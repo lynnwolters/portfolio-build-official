@@ -1,3 +1,17 @@
+/*********/
+/* FONTS */
+/*********/
+
+@font-face {
+    font-family: 'MoglanDemo';
+    src: url(../fonts/MoglanDemo.woff);
+}
+
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url(../fonts/RedHatDisplay.ttf);
+}
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -34,7 +48,6 @@ body {
     width: 48em; 
     height: 48em; 
     background: -webkit-radial-gradient(#FFE923, #F4F4F4);
-    filter: blur(12em);
     border-radius: 1000em;
 }
 
@@ -45,7 +58,6 @@ body {
     width: 48em; 
     height: 48em; 
     background: -webkit-radial-gradient(#FF64FF, #F4F4F4);
-    filter: blur(12em);
     border-radius: 1000em;
 }
 
@@ -57,7 +69,6 @@ body {
     width: 48em; 
     height: 48em; 
     background: -webkit-radial-gradient(#FFE923, #F4F4F4);
-    filter: blur(12em);
     border-radius: 1000em;
 }
 
@@ -69,19 +80,16 @@ body {
     .yellow-blob-top {
         width: 40em; 
         height: 40em; 
-        filter: blur(12em);
     }
     
     .pink-blob-middle {
         width: 40em; 
         height: 40em; 
-        filter: blur(12em);
     }
     
     .yellow-blob-bottom {
         width: 40em; 
         height: 40em; 
-        filter: blur(12em);
     }
 }
 
@@ -93,19 +101,16 @@ body {
     .yellow-blob-top {
         width: 32em; 
         height: 32em; 
-        filter: blur(10em);
     }
     
     .pink-blob-middle {
         width: 32em; 
         height: 32em; 
-        filter: blur(10em);
     }
     
     .yellow-blob-bottom {
         width: 32em; 
         height: 32em; 
-        filter: blur(10em);
     }
 }
 
@@ -117,19 +122,16 @@ body {
     .yellow-blob-top {
         width: 20em; 
         height: 20em; 
-        filter: blur(8em);
     }
     
     .pink-blob-middle {
         width: 20em; 
         height: 20em; 
-        filter: blur(8em);
     }
     
     .yellow-blob-bottom {
         width: 20em; 
         height: 20em;  
-        filter: blur(8em);
     }
 }
 
@@ -141,32 +143,17 @@ body {
     .yellow-blob-top {
         width: 16em; 
         height: 16em; 
-        filter: blur(6em);
     }
     
     .pink-blob-middle {
         width: 16em; 
         height: 16em; 
-        filter: blur(6em);
     }
     
     .yellow-blob-bottom {
         width: 16em; 
         height: 16em; 
-        filter: blur(6em);
     }
-}
-
-/*********/
-/* FONTS */
-/*********/
-
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@font-face {
-    font-family: 'MoglanDemo';
-    src: url(../fonts/MoglanDemo.woff);
-    src: url(../fonts/MoglanDemo.woff);
 }
 
 /*********************/
