@@ -7,12 +7,9 @@ main section:nth-of-type(1) {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
     margin: 6em 8em;
-    /* height: 100vh; */
 }
 
 main section:nth-of-type(1) .profile-picture-container {
-    /* height: 100%;
-    width: 100%; */
     grid-column: span 4;
     position: relative;
     aspect-ratio: 3/4;
@@ -36,6 +33,12 @@ main section:nth-of-type(1) .badge {
     border-radius: 1000em;
     width: 50%;
     height: auto;
+    transform: rotate(0deg);
+    transition: 3s;
+}
+
+main section:nth-of-type(1) .badge.rotate {
+    transform: rotate(180deg);
 }
 
 main section:nth-of-type(1) p {

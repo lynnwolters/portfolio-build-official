@@ -1,0 +1,23 @@
+/*****************/
+/* CUSTOM CURSOR */
+/*****************/
+
+.cursor {
+    z-index: 2000;
+    width: 1.8em;
+    aspect-ratio: 1/1;
+    border-radius: 100em;
+    background-color: var(--accent-color-2);
+    transition: all .1s ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+}
+
+.hover {
+    width: 4em;
+    transition: all .1s ease-out;
+    opacity: .5;
+}

@@ -10,9 +10,14 @@
 
     <title>@creativecodingbylynn</title>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script defer src="js/scroll-magic.js"></script>
+    <script defer src="js/hamburger-nav.js"></script>
+    <script defer src="js/custom-cursor.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css">
@@ -23,19 +28,22 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/work.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/custom-cursor.css">
 
 </head>
 
 <body>
+
+    <div class="cursor"></div>
 
     <div class="blob yellow top"></div>
 
     <nav>
         <a href="/index.html">Lynn Wolters / <br> Portfolio 2023</a>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -71,7 +79,7 @@
 
     <main>
 
-        <section>
+        <section id="about">
             <div class="profile-picture-container">
                 <img class="profile-picture" src="./img/profile-picture.jpg" alt="profile-picture">
                 <img class="badge" src="./img/badge.svg" alt="badge">
@@ -116,10 +124,10 @@
                 <li><p>HTML</p></li>
                 <li><p>(S)CSS</p></li>
                 <li><p>JavaScript basics</p></li>
+                <li><p>Node.js + EJS basics</p></li>
                 <li><p>Version control</p></li>
-                <li><p>Hosting</p></li>
+                <li><p>Webflow / Framer</p></li>
                 <li><p>Web accessibility</p></li>
-                <li><p>Bootstrap</p></li>
             </ul>
         </section>
 
@@ -141,10 +149,10 @@
             </ul>
         </section>
 
-        <section>
+        <section id="work">
             <h2>Work</h2>
             <ul>
-                <li class="magic-hover">
+                <li>
                     <a href="#">
                         <h3>Swapfiets</h3>
                         <p>creative Thinking, branding, UI design, illustration</p>
@@ -158,8 +166,8 @@
                 </li>
                 <li>
                     <a href="#">
-                        <h3>Portfolio</h3>
-                        <p>UI design, front-end development</p>
+                        <h3>CSS Art</h3>
+                        <p>Illustration, front-end development</p>
                     </a>
                 </li>
                 <li>
@@ -171,7 +179,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="contact">
             <h2>Let's get in touch!</h2>
             <h3>Send me an <br> <a href="#">email</a></h3>
             <p>(info@creativecodingbylynn.nl)</p>
@@ -185,12 +193,10 @@
     <footer>
         <p>© 2023 creativecodingbylynn</p>
         <ul>
-            <li><a href="#"><img src="./img/arrow-link.svg" alt="arrow-link">Instagram</a></li>
-            <li><a href="#"><img src="./img/arrow-link.svg" alt="arrow-link">LinkedIn</a></li>
+            <li><a target="_blank" href="https://nl.linkedin.com/in/lynn-wolters?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src="./img/arrow-link.svg" alt="arrow-link">LinkedIn</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/lynn.wolters/?hl=nl"><img src="./img/arrow-link.svg" alt="arrow-link">Instagram</a></li>
         </ul>
     </footer>
-
-    <script defer src="js/hamburger-nav.js"></script>
 
 </body>
 

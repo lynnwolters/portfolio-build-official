@@ -25,6 +25,7 @@
     -webkit-font-smoothing: antialiased;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -32,7 +33,7 @@ html {
 }
 
 a, button {
-    cursor: pointer;
+    cursor: none;
 }
 
 body {
@@ -42,6 +43,7 @@ body {
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    cursor: none;
 }
 
 .blob {
@@ -138,3 +140,4 @@ body {
     --accent-color-1: rgb(255 233 35);
     --accent-color-2: rgb(255 100 255);
 }
+

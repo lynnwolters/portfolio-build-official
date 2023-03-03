@@ -39,6 +39,10 @@ footer ul li a {
     letter-spacing: 0.06em;
 }
 
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
 footer ul li a img {
     margin-right: 0.4em;
 } 
