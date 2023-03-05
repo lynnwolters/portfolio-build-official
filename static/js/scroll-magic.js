@@ -1,8 +1,8 @@
 // scene.addIndicators();
 
-import ScrollMagic from 'scrollmagic';
-import { gsap } from 'gsap';
-import 'scrollmagic/scrollmagic/minified/plugins/animation.gsap.min';
+// import ScrollMagic from 'scrollmagic';
+// import { gsap } from 'gsap';
+// import 'scrollmagic/scrollmagic/minified/plugins/animation.gsap.min';
 
 /**************/
 /* CONTROLLER */
@@ -346,12 +346,12 @@ scene42.setClassToggle(".left-21", "visible-left-21");
 /* ROTATE SCENE */
 /****************/
 
-var scene43 = new ScrollMagic.Scene({
-    triggerElement: ".badge",
-    triggerHook: 0.5,
-    duration: "100%",
-})
-scene43.setTween(gsap.to('.element', 1, { rotation: 360, ease: 'linear' }))
+// var scene43 = new ScrollMagic.Scene({
+//     triggerElement: ".badge",
+//     triggerHook: 0.5,
+//     duration: "100%",
+// })
+// scene43.setTween(gsap.to('.element', 1, { rotation: 360, ease: 'linear' }))
 
 /********************************/
 /* ADD SCENES TO THE CONTROLLER */
@@ -400,6 +400,5 @@ controller.addScene([
     scene40,
     scene41,
     scene42,
-    scene43,
 ]);
 
