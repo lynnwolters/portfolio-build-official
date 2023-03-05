@@ -132,28 +132,80 @@ body {
 /* ANIMATIONS */
 /**************/
 
-/* SLIDE-RIGHT */
+/* VISIBLE RIGHT */
 .visible-right-1 {
-    animation: slide-right 1.6s ease-in-out;
 }
 
 .visible-right-2 {
-    animation: slide-right 1.6s ease-in-out;
+    animation: visible-right 2s ease-out;
 }
 
 .visible-right-3 {
-    animation: slide-right 1.6s ease-in-out;
 }
 
 .visible-right-4 {
-    animation: slide-right 1.6s ease-in-out;
 }
 
 .visible-right-5 {
-    animation: slide-right 1.6s ease-in-out;
+    animation: visible-right 1s ease-out;
 }
 
-@keyframes slide-right {
+.visible-right-6 {
+    animation: visible-right 1.4s ease-in-out;
+}
+
+.visible-right-7 {
+}
+
+.visible-right-8 {
+}
+
+.visible-right-9 {
+    animation: visible-right 2.2s ease-in-out;
+}
+
+.visible-right-10 {
+}
+
+.visible-right-11 {
+}
+
+.visible-right-12 {
+}
+
+.visible-right-13 {
+    animation: visible-right 1.8s ease-out;
+}
+
+.visible-right-14 {
+}
+
+.visible-right-15 {
+    animation: visible-right 1.4s ease-out;
+}
+
+.visible-right-16 {
+}
+
+.visible-right-17 {
+    animation: visible-right 2.2s ease-out;
+}
+
+.visible-right-18 {
+}
+
+.visible-right-19 {
+}
+
+.visible-right-20 {
+    animation: visible-top 1s ease-out;
+}
+
+.visible-right-21 {
+}
+
+
+@keyframes visible-right {
     from {
         opacity: 0;
         transform: translateX(12em);  
@@ -164,28 +216,106 @@ body {
     }
 }
 
-/* SLIDE-LEFT */
+@keyframes visible-top {
+    from {
+        opacity: 0;
+        transform: translateY(1em);  
+    }
+    to {
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}
+
+@keyframes visible-top-2 {
+    from {
+        opacity: 0;
+        transform: translateY(8em);  
+    }
+    to {
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}
+
+/* VISIBLE LEFT */
 .visible-left-1 {
-    animation: slide-left 1.6s ease-in-out;
+    animation: visible-left 1.6s ease-out;
 }
 
 .visible-left-2 {
-    animation: slide-left 1.6s ease-in-out;
 }
 
 .visible-left-3 {
-    animation: slide-left 1.6s ease-in-out;
+    animation: visible-left 2.2s ease-out;
 }
 
 .visible-left-4 {
-    animation: slide-left 1.6s ease-in-out;
+    animation: visible-left 1s ease-out;
 }
 
 .visible-left-5 {
-    animation: slide-left 1.6s ease-in-out;
 }
 
-@keyframes slide-left {
+.visible-left-6 {
+}
+
+.visible-left-7 {
+    animation: visible-left 1.4s ease-in-out;
+}
+
+.visible-left-8 {
+    animation: visible-left 1.8s ease-in-out;
+}
+
+.visible-left-9 {
+}
+
+.visible-left-10 {
+    animation: visible-left 1.4s ease-in-out;
+}
+
+.visible-left-11 {
+    animation: visible-left 1.6s ease-out;
+}
+
+.visible-left-12 {
+    animation: visible-left 2.2s ease-out;
+}
+
+.visible-left-13 {
+}
+
+.visible-left-14 {
+    animation: visible-left 1.4s ease-out;
+}
+
+.visible-left-15 {
+}
+
+.visible-left-16 {
+    animation: visible-left 1.8s ease-out;
+}
+
+.visible-left-17 {
+}
+
+.visible-left-18 {
+    animation: visible-left 2.6s ease-out;
+}
+
+.visible-left-19 {
+    animation: visible-top-2 .6s ease-out;
+}
+
+.visible-left-20 {
+}
+
+.visible-left-21 {
+    animation: visible-top-2 2s ease-out;
+}
+
+@keyframes visible-left {
     from {
         opacity: 0;
         transform: translateX(-12em);  

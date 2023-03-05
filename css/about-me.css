@@ -33,18 +33,7 @@ main section:nth-of-type(1) .badge {
     border-radius: 1000em;
     width: 50%;
     height: auto;
-    /* animation: rotate-badge 8s ease-in-out infinite; */
 }
-
-/* @keyframes rotate-badge {
-    from {
-        transform: translate(-50%, 50%) rotate(0deg);
-    }
-
-    to {
-        transform: translate(-50%, 50%) rotate(360deg);
-    }
-} */
 
 main section:nth-of-type(1) p {
     grid-column-start: 6;
