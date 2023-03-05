@@ -1,14 +1,18 @@
 // scene.addIndicators();
 
+import ScrollMagic from 'scrollmagic';
+import { gsap } from 'gsap';
+import 'scrollmagic/scrollmagic/minified/plugins/animation.gsap.min';
+
 /**************/
 /* CONTROLLER */
 /**************/
 
 var controller = new ScrollMagic.Controller();
 
-/**********/
-/* SCENES */
-/**********/
+/****************/
+/* SLIDE SCENES */
+/****************/
 
 /* 1 */
 
@@ -18,7 +22,7 @@ scene1.setClassToggle(".right-1", "visible-right-1");
 
 var scene2 = new ScrollMagic.Scene({
     triggerHook: "onEnter",
-    reverse: false,
+    reverse: true,
 })
 scene2.setClassToggle(".left-1", "visible-left-1");
 
@@ -28,7 +32,7 @@ scene2.setClassToggle(".left-1", "visible-left-1");
 
 var scene3 = new ScrollMagic.Scene({
     triggerHook: "onEnter",
-    reverse: false,
+    reverse: true,
 })
 scene3.setClassToggle(".right-2", "visible-right-2");
 
@@ -46,7 +50,7 @@ scene5.setClassToggle(".right-3", "visible-right-3");
 
 var scene6 = new ScrollMagic.Scene({
     triggerHook: "onEnter",
-    reverse: false,
+    reverse: true,
 })
 scene6.setClassToggle(".left-3", "visible-left-3");
 
@@ -62,7 +66,7 @@ var scene8 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(1)",
     triggerHook: "onEnter",
     offset: 0,
-    reverse: false,
+    reverse: true,
 })
 scene8.setClassToggle(".left-4", "visible-left-4");
 
@@ -74,7 +78,7 @@ var scene9 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(1)",
     triggerHook: "onEnter",
     offset: 200,
-    reverse: false,
+    reverse: true,
 })
 scene9.setClassToggle(".right-5", "visible-right-5");
 
@@ -90,7 +94,7 @@ var scene11 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(2)",
     triggerHook: "onEnter",
     offset: 0,
-    reverse: false,
+    reverse: true,
 })
 scene11.setClassToggle(".right-6", "visible-right-6");
 
@@ -110,7 +114,7 @@ var scene14 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(2)",
     triggerHook: "onEnter",
     offset: 200,
-    reverse: false,
+    reverse: true,
 })
 scene14.setClassToggle(".left-7", "visible-left-7");
 
@@ -126,7 +130,7 @@ var scene16 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(2)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene16.setClassToggle(".left-8", "visible-left-8");
 
@@ -138,7 +142,7 @@ var scene17 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(2)",
     triggerHook: "onEnter",
     offset: 600,
-    reverse: false,
+    reverse: true,
 })
 scene17.setClassToggle(".right-9", "visible-right-9");
 
@@ -158,7 +162,7 @@ var scene20 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(3)",
     triggerHook: "onEnter",
     offset: 0,
-    reverse: false,
+    reverse: true,
 })
 scene20.setClassToggle(".left-10", "visible-left-10");
 
@@ -174,7 +178,7 @@ var scene22 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(3)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene22.setClassToggle(".left-11", "visible-left-11");
 
@@ -190,7 +194,7 @@ var scene24 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(3)",
     triggerHook: "onEnter",
     offset: 600,
-    reverse: false,
+    reverse: true,
 })
 scene24.setClassToggle(".left-12", "visible-left-12");
 
@@ -202,7 +206,7 @@ var scene25 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(3)",
     triggerHook: "onEnter",
     offset: 200,
-    reverse: false,
+    reverse: true,
 })
 scene25.setClassToggle(".right-13", "visible-right-13");
 
@@ -222,7 +226,7 @@ var scene28 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(4)",
     triggerHook: "onEnter",
     offset: 0,
-    reverse: false,
+    reverse: true,
 })
 scene28.setClassToggle(".left-14", "visible-left-14");
 
@@ -234,7 +238,7 @@ var scene29 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(4)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene29.setClassToggle(".right-15", "visible-right-15");
 
@@ -254,7 +258,7 @@ var scene32 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(4)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene32.setClassToggle(".left-16", "visible-left-16");
 
@@ -266,7 +270,7 @@ var scene33 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(4)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene33.setClassToggle(".right-17", "visible-right-17");
 
@@ -286,7 +290,7 @@ var scene36 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(4)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene36.setClassToggle(".left-18", "visible-left-18");
 
@@ -302,7 +306,7 @@ var scene38 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(5)",
     triggerHook: "onEnter",
     offset: 200,
-    reverse: false,
+    reverse: true,
 })
 scene38.setClassToggle(".left-19", "visible-left-19");
 
@@ -314,7 +318,7 @@ var scene39 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(5)",
     triggerHook: "onEnter",
     offset: 400,
-    reverse: false,
+    reverse: true,
 })
 scene39.setClassToggle(".right-20", "visible-right-20");
 
@@ -334,9 +338,20 @@ var scene42 = new ScrollMagic.Scene({
     triggerElement: "main section:nth-of-type(5)",
     triggerHook: "onEnter",
     offset: 600,
-    reverse: false,
+    reverse: true,
 })
 scene42.setClassToggle(".left-21", "visible-left-21");
+
+/****************/
+/* ROTATE SCENE */
+/****************/
+
+var scene43 = new ScrollMagic.Scene({
+    triggerElement: ".badge",
+    triggerHook: 0.5,
+    duration: "100%",
+})
+scene43.setTween(gsap.to('.element', 1, { rotation: 360, ease: 'linear' }))
 
 /********************************/
 /* ADD SCENES TO THE CONTROLLER */
@@ -385,5 +400,6 @@ controller.addScene([
     scene40,
     scene41,
     scene42,
+    scene43,
 ]);
 

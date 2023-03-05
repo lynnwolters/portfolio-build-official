@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'MoglanDemo';
-    src: url(../fonts/MoglanDemo.woff);
+    src: url(./fonts/MoglanDemo.woff);
 }
 
 @font-face {
     font-family: 'Red Hat Display', sans-serif;
-    src: url(../fonts/RedHatDisplay-Regular.woff);
+    src: url(./fonts/RedHatDisplay-Regular.woff);
 }
 
 /**************/
@@ -208,7 +208,7 @@ body {
 @keyframes visible-right {
     from {
         opacity: 0;
-        transform: translateX(12em);  
+        transform: translateX(6em);  
     }
     to {
         transform: translateX(0em);
@@ -318,7 +318,7 @@ body {
 @keyframes visible-left {
     from {
         opacity: 0;
-        transform: translateX(-12em);  
+        transform: translateX(-6em);  
     }
     to {
         transform: translateX(0em);

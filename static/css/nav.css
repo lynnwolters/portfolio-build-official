@@ -25,6 +25,10 @@ body > nav:nth-of-type(1) > a {
     letter-spacing: 0.06em;
 }
 
+body > nav:nth-of-type(1) > a:hover {
+    text-decoration: underline;
+}
+
 body > nav:nth-of-type(1) ul {
     grid-column: span 6;
     display: flex;
