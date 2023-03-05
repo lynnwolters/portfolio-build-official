@@ -46,6 +46,11 @@ body {
     cursor: none;
 }
 
+/*********/
+/* BLOBS */
+/********/
+
+/* BLOBS DESKTOP */
 .blob {
     position: absolute;
     width: 112em; 
@@ -78,60 +83,42 @@ body {
     transform: translate(50%, 0%);
 }
 
-/**********/
-/* TABLET */
-/**********/
-
+/* BLOBS TABLET */
 @media (max-width: 80em) {
     .blob {
         width: 96em; 
     }
 }
 
-/****************/
-/* TABLET MEDIUM */
-/****************/
-
+/* BLOBS TABLET MEDIUM */
 @media (max-width: 64em) {
     .blob {
         width: 72em; 
     }
 }
 
-/****************/
-/* TABLET SMALL */
-/****************/
-
+/* BLOBS TABLET SMALL */
 @media (max-width: 48em) {
     .blob {
         width: 56em; 
     }
 }
 
-/**********/
-/* MOBILE */
-/**********/
-
+/* BLOBS MOBILE */
 @media (max-width: 40em) {
     .blob {
         width: 48em; 
     }
 }
 
-/****************/
-/* MOBILE SMALL */
-/****************/
-
+/* BLOBS MOBILE SMALL */
 @media (max-width: 22em) {
     .blob {
         width: 32em; 
     }
 }
 
-/*********************/
 /* CUSTOM PROPERTIES */
-/*********************/
-
 :root {
     --background-color: rgb(244 244 244);
     --title-color: rgb(35 35 35);
@@ -140,4 +127,73 @@ body {
     --accent-color-1: rgb(255 233 35);
     --accent-color-2: rgb(255 100 255);
 }
+
+/**************/
+/* ANIMATIONS */
+/**************/
+
+/* SLIDE-RIGHT */
+.visible-right-1 {
+    animation: slide-right 1.6s ease-in-out;
+}
+
+.visible-right-2 {
+    animation: slide-right 1.6s ease-in-out;
+}
+
+.visible-right-3 {
+    animation: slide-right 1.6s ease-in-out;
+}
+
+.visible-right-4 {
+    animation: slide-right 1.6s ease-in-out;
+}
+
+.visible-right-5 {
+    animation: slide-right 1.6s ease-in-out;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        transform: translateX(12em);  
+    }
+    to {
+        transform: translateX(0em);
+        opacity: 1;
+    }
+}
+
+/* SLIDE-LEFT */
+.visible-left-1 {
+    animation: slide-left 1.6s ease-in-out;
+}
+
+.visible-left-2 {
+    animation: slide-left 1.6s ease-in-out;
+}
+
+.visible-left-3 {
+    animation: slide-left 1.6s ease-in-out;
+}
+
+.visible-left-4 {
+    animation: slide-left 1.6s ease-in-out;
+}
+
+.visible-left-5 {
+    animation: slide-left 1.6s ease-in-out;
+}
+
+@keyframes slide-left {
+    from {
+        opacity: 0;
+        transform: translateX(-12em);  
+    }
+    to {
+        transform: translateX(0em);
+        opacity: 1;
+    }
+}
+
 

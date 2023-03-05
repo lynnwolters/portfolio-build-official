@@ -4,7 +4,7 @@
 
 .cursor {
     z-index: 2000;
-    width: 1.8em;
+    width: 1em;
     aspect-ratio: 1/1;
     border-radius: 100em;
     background-color: var(--accent-color-2);
