@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8080
 const path = require('path');
-// const fs = require('fs');
-// const jsonData = fs.readFileSync('static/data/data.json', 'utf8');
-// const myData = JSON.parse(jsonData);
 
 app.set('view engine', 'ejs');
 app.set('views', 'view');

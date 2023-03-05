@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'MoglanDemo';
-    src: url(./fonts/MoglanDemo.woff);
+    src: url(../fonts/MoglanDemo.woff);
 }
 
 @font-face {
     font-family: 'Red Hat Display', sans-serif;
-    src: url(./fonts/RedHatDisplay-Regular.woff);
+    src: url(../fonts/RedHatDisplay-Regular.woff);
 }
 
 /**************/
