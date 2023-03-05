@@ -32,7 +32,8 @@ html {
     overflow-x: hidden;
 }
 
-a, button {
+a,
+button {
     cursor: none;
 }
 
@@ -53,17 +54,17 @@ body {
 /* BLOBS DESKTOP */
 .blob {
     position: absolute;
-    width: 112em; 
+    width: 112em;
     aspect-ratio: 1/1;
     z-index: -1;
 }
 
 .blob.yellow {
-    background-image: radial-gradient(rgba(255,233,35,0.60) 0%, rgba(253,233,35,0.45) 12%, rgba(255,233,35,0.30) 30%, rgba(255,233,35,0.15) 42%, rgba(255,233,35, 0) 54%, rgba(255,233,35,0) 70%, rgba(255,233,35,0) 82%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(rgba(255, 233, 35, 0.60) 0%, rgba(253, 233, 35, 0.45) 12%, rgba(255, 233, 35, 0.30) 30%, rgba(255, 233, 35, 0.15) 42%, rgba(255, 233, 35, 0) 54%, rgba(255, 233, 35, 0) 70%, rgba(255, 233, 35, 0) 82%, rgba(0, 0, 0, 0) 100%);
 }
 
 .blob.pink {
-    background-image: radial-gradient(rgba(255,100,255,0.45) 0%, rgba(253,100,255,0.30) 12%, rgba(255,100,255,0.15) 30%, rgba(255,100,255,0.05) 42%, rgba(255,100,255, 0) 54%, rgba(255,100,255,0) 70%, rgba(255,100,255,0) 82%, rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(rgba(255, 100, 255, 0.45) 0%, rgba(253, 100, 255, 0.30) 12%, rgba(255, 100, 255, 0.15) 30%, rgba(255, 100, 255, 0.05) 42%, rgba(255, 100, 255, 0) 54%, rgba(255, 100, 255, 0) 70%, rgba(255, 100, 255, 0) 82%, rgba(0, 0, 0, 0) 100%);
 }
 
 .blob.yellow.top {
@@ -86,35 +87,35 @@ body {
 /* BLOBS TABLET */
 @media (max-width: 80em) {
     .blob {
-        width: 96em; 
+        width: 96em;
     }
 }
 
 /* BLOBS TABLET MEDIUM */
 @media (max-width: 64em) {
     .blob {
-        width: 72em; 
+        width: 72em;
     }
 }
 
 /* BLOBS TABLET SMALL */
 @media (max-width: 48em) {
     .blob {
-        width: 56em; 
+        width: 56em;
     }
 }
 
 /* BLOBS MOBILE */
 @media (max-width: 40em) {
     .blob {
-        width: 48em; 
+        width: 48em;
     }
 }
 
 /* BLOBS MOBILE SMALL */
 @media (max-width: 22em) {
     .blob {
-        width: 32em; 
+        width: 32em;
     }
 }
 
@@ -126,6 +127,7 @@ body {
     --line-color: rgb(35 35 35);
     --accent-color-1: rgb(255 233 35);
     --accent-color-2: rgb(255 100 255);
+    --main-1: white;
 }
 
 /**************/
@@ -133,18 +135,15 @@ body {
 /**************/
 
 /* VISIBLE RIGHT */
-.visible-right-1 {
-}
+.visible-right-1 {}
 
 .visible-right-2 {
     animation: visible-right 2s ease-out;
 }
 
-.visible-right-3 {
-}
+.visible-right-3 {}
 
-.visible-right-4 {
-}
+.visible-right-4 {}
 
 .visible-right-5 {
     animation: visible-right 1s ease-out;
@@ -154,62 +153,52 @@ body {
     animation: visible-right 1.4s ease-in-out;
 }
 
-.visible-right-7 {
-}
+.visible-right-7 {}
 
-.visible-right-8 {
-}
+.visible-right-8 {}
 
 .visible-right-9 {
     animation: visible-right 2.2s ease-in-out;
 }
 
-.visible-right-10 {
-}
+.visible-right-10 {}
 
-.visible-right-11 {
-}
+.visible-right-11 {}
 
-.visible-right-12 {
-}
+.visible-right-12 {}
 
 .visible-right-13 {
     animation: visible-right 1.8s ease-out;
 }
 
-.visible-right-14 {
-}
+.visible-right-14 {}
 
 .visible-right-15 {
     animation: visible-right 1.4s ease-out;
 }
 
-.visible-right-16 {
-}
+.visible-right-16 {}
 
 .visible-right-17 {
     animation: visible-right 2.2s ease-out;
 }
 
-.visible-right-18 {
-}
+.visible-right-18 {}
 
-.visible-right-19 {
-}
+.visible-right-19 {}
 
 .visible-right-20 {
     animation: visible-top 1s ease-out;
 }
 
-.visible-right-21 {
-}
-
+.visible-right-21 {}
 
 @keyframes visible-right {
     from {
         opacity: 0;
-        transform: translateX(6em);  
+        transform: translateX(6em);
     }
+
     to {
         transform: translateX(0em);
         opacity: 1;
@@ -219,8 +208,9 @@ body {
 @keyframes visible-top {
     from {
         opacity: 0;
-        transform: translateY(1em);  
+        transform: translateY(1em);
     }
+
     to {
         transform: translateY(0em);
         opacity: 1;
@@ -230,8 +220,9 @@ body {
 @keyframes visible-top-2 {
     from {
         opacity: 0;
-        transform: translateY(8em);  
+        transform: translateY(8em);
     }
+
     to {
         transform: translateY(0em);
         opacity: 1;
@@ -243,8 +234,7 @@ body {
     animation: visible-left 1.6s ease-out;
 }
 
-.visible-left-2 {
-}
+.visible-left-2 {}
 
 .visible-left-3 {
     animation: visible-left 2.2s ease-out;
@@ -254,11 +244,9 @@ body {
     animation: visible-left 1s ease-out;
 }
 
-.visible-left-5 {
-}
+.visible-left-5 {}
 
-.visible-left-6 {
-}
+.visible-left-6 {}
 
 .visible-left-7 {
     animation: visible-left 1.4s ease-in-out;
@@ -268,8 +256,7 @@ body {
     animation: visible-left 1.8s ease-in-out;
 }
 
-.visible-left-9 {
-}
+.visible-left-9 {}
 
 .visible-left-10 {
     animation: visible-left 1.4s ease-in-out;
@@ -283,22 +270,19 @@ body {
     animation: visible-left 2.2s ease-out;
 }
 
-.visible-left-13 {
-}
+.visible-left-13 {}
 
 .visible-left-14 {
     animation: visible-left 1.4s ease-out;
 }
 
-.visible-left-15 {
-}
+.visible-left-15 {}
 
 .visible-left-16 {
     animation: visible-left 1.8s ease-out;
 }
 
-.visible-left-17 {
-}
+.visible-left-17 {}
 
 .visible-left-18 {
     animation: visible-left 2.6s ease-out;
@@ -308,22 +292,74 @@ body {
     animation: visible-top-2 .6s ease-out;
 }
 
-.visible-left-20 {
-}
+.visible-left-20 {}
 
 .visible-left-21 {
-    animation: visible-top-2 2s ease-out;
+    animation: visible-top-2 1.2s ease-out;
 }
 
 @keyframes visible-left {
     from {
         opacity: 0;
-        transform: translateX(-6em);  
+        transform: translateX(-6em);
     }
+
     to {
         transform: translateX(0em);
         opacity: 1;
     }
 }
 
+/* BOUNCE */
+.bounce {
+    animation: bounce 2s infinite;
+}
 
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-2em);
+    }
+
+    60% {
+        transform: translateY(-1em);
+    }
+}
+
+/* ROTATE */
+.disappear {
+    animation: disappear 1s ease-out;
+}
+
+@keyframes disappear {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ARROW */
+@keyframes arrow {
+    0% {
+        transform: translateY(0em);
+    }
+
+    50% {
+        transform: translateY(-.1em);
+    }
+
+    100% {
+        transform: translateY(0em);
+    }
+}

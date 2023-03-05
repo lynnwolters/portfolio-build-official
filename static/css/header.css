@@ -51,18 +51,6 @@ header h1 img {
     animation: arrow 1.6s infinite;
 }
 
-@keyframes arrow {
-    0% {
-        transform: translateY(0em);
-    }
-    50% {
-        transform: translateY(-.1em);
-    }
-    100% {
-        transform: translateY(0em);
-    }
-}
-
 /**********/
 /* TABLET */
 /**********/

@@ -1,5 +1,7 @@
 var cursor = document.querySelector('.cursor');
 var a = document.querySelectorAll('a');
+var button = document.querySelectorAll('button');
+var heart = document.querySelectorAll('main section:nth-of-type(5) > img');
 
 document.addEventListener('mousemove', function(e){
   var x = e.clientX;
@@ -18,8 +20,32 @@ document.addEventListener('mouseup', function(){
 a.forEach(item => {
   item.addEventListener('mouseover', () => {
     cursor.classList.add('hover');
+    cursor.textContent = 'go';
   });
   item.addEventListener('mouseleave', () => {
     cursor.classList.remove('hover');
+    cursor.textContent = '';
   });
 })
+
+button.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    cursor.classList.add('hover');
+    cursor.textContent = 'copy';
+  });
+  item.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hover');
+    cursor.textContent = '';
+  });
+})
+
+heart.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    cursor.classList.add('hover');
+    cursor.classList.add('rotate');
+  });
+  item.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hover');
+    cursor.classList.remove('rotate');
+  });
+});

@@ -65,14 +65,14 @@
 
     <header>
         <h1>
-            <span class="1 left-1">
+            <span class="left-1">
                 <span>@</span>
                 <span>Creative</span>
             </span>
-            <span class="2 right-2">
+            <span class="right-2">
                 <span>Coding</span>
             </span>
-            <span class="3 left-3">
+            <span class="left-3">
                 <span>By</span>
                 <span>Lynn</span>
             </span>
@@ -83,11 +83,11 @@
     <main>
 
         <section id="about">
-            <div class="profile-picture-container 4 left-4">
+            <div class="profile-picture-container left-4">
                 <img class="profile-picture" src="./img/profile-picture.jpg" alt="profile-picture">
                 <img class="badge" src="./img/badge.svg" alt="badge">
             </div>
-            <p class="5 right-5"> My name is Lynn Wolters and I am a 23 year old Communication & Multimedia Design student in Amsterdam.
+            <p class="right-5"> My name is Lynn Wolters and I am a 23 year old Communication & Multimedia Design student in Amsterdam.
                 <br> <br>
                 From an early age I have been fascinated by design and technology. That’s why I chose the path of
                 becoming a digital designer and front-end developer. My goal is to help clients with an unique
@@ -101,8 +101,8 @@
         <div class="blob pink middle"></div>
 
         <section>
-            <h2 class="6 right-6">Skills i've learned so far</h2>
-            <ul class="7 left-7">
+            <h2 class="right-6">Skills i've learned so far</h2>
+            <ul class="left-7">
                 <h3>Branding</h3>
                 <li><p>Creative thinking</p></li>
                 <li><p>Visual research</p></li>
@@ -112,7 +112,7 @@
                 <li><p>Illustrator</p></li>
                 <li><p>Photoshop</p></li>
             </ul>
-            <ul class="8 left-8">
+            <ul class="left-8">
                 <h3>UI/UX Design</h3>
                 <li><p>Design thinking</p></li>
                 <li><p>User flow design</p></li>
@@ -122,7 +122,7 @@
                 <li><p>Smart animation</p></li>
                 <li><p>Figma</p></li>
             </ul>
-            <ul class="9 right-9"> 
+            <ul class="right-9"> 
                 <h3>Front-end</h3>
                 <li><p>HTML</p></li>
                 <li><p>(S)CSS</p></li>
@@ -135,17 +135,17 @@
         </section>
 
         <section>
-            <h2 class="10 left-10">Experience</h2>
-            <ul class="11 left-11">
+            <h2 class="left-10">Experience</h2>
+            <ul class=left-11">
                 <li><p>09/2019 - 01/2020</p></li>
                 <li><p>Intern at Stimmt Digital</p></li>
                 <li><p>Digital Design & Front-end Development</p></li>
             </ul>
-            <ul class="12 left-12">
+            <ul class="left-12">
                 <li><p>2019 - 2020</p></li>
                 <li><p>Freelance</p></li>
             </ul>
-            <ul class="13 right-13">
+            <ul class="right-13">
                 <li><p>01/2019 - 07/2020</p></li>
                 <li><p>Intern at Nerds & Company</p></li>
                 <li><p>Digital Design & Front-end Development</p></li>
@@ -153,27 +153,27 @@
         </section>
 
         <section id="work">
-            <h2 class="14 left-14">Work</h2>
+            <h2 class="left-14">Work</h2>
             <ul>
-                <li class="15 right-15">
+                <li class="right-15">
                     <a href="#">
                         <h3>Swapfiets</h3>
                         <p>creative Thinking, branding, UI design, illustration</p>
                     </a>
                 </li>
-                <li class="16 left-16">
+                <li class="left-16">
                     <a href="#">
                         <h3>Tableware by Sharon</h3>
                         <p>UI design</p>
                     </a>
                 </li>
-                <li class="17 right-17">
+                <li class="right-17">
                     <a href="#">
                         <h3>CSS Art</h3>
                         <p>Illustration, front-end development</p>
                     </a>
                 </li>
-                <li class="18 left-18">
+                <li class="left-18">
                     <a href="#">
                         <h3>Coming soon</h3>
                         <p>...</p>
@@ -183,10 +183,16 @@
         </section>
 
         <section id="contact">
-            <h2 class="19 left-19">Let's get in touch!</h2>
-            <h3 class="20 right-20">Send me an <br> <a href="#">email</a></h3>
-            <p class="21 left-21">(info@creativecodingbylynn.nl)</p>
-            <img src="./img/heart.svg" alt="heart">
+            <h2 class="left-19">Let's get in touch!</h2>
+            <h3 class="right-20">Send me an <br> <a  href="#">email</a></h3>
+            <div class="email left-21">
+                <button id="copy-button"> 
+                    <img src="./img/copy.svg" alt="copy"> 
+                    <p>(info@creativecodingbylynn.nl)</p>
+                </button>
+            </div>
+            <div id="feedback"></div>
+            <img class="bounce disappear" src="./img/heart.svg" alt="heart">
         </section>
 
     </main>
@@ -200,6 +206,8 @@
             <li><a target="_blank" href="https://www.instagram.com/lynn.wolters/?hl=nl"><img src="./img/arrow-link.svg" alt="arrow-link">Instagram</a></li>
         </ul>
     </footer>
+
+    <script src="./js/copy-to-clipboard.js"></script>
 
 </body>
 
