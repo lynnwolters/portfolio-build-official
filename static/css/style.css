@@ -47,6 +47,21 @@ body {
     cursor: none;
 }
 
+/********************/
+/* CUSTOM PROPERTIES */
+/********************/
+
+:root {
+    --background-color: rgb(244 244 244);
+    --title-color: rgb(35 35 35);
+    --p-color: rgb(101 101 101);
+    --line-color: rgb(35 35 35);
+    --accent-color-1: rgb(255 233 35);
+    --accent-color-2: rgb(255 100 255);
+    --accent-color-3: rgb(255 98 1);
+    --main-1: white;
+}
+
 /*********/
 /* BLOBS */
 /********/
@@ -117,17 +132,6 @@ body {
     .blob {
         width: 32em;
     }
-}
-
-/* CUSTOM PROPERTIES */
-:root {
-    --background-color: rgb(244 244 244);
-    --title-color: rgb(35 35 35);
-    --p-color: rgb(101 101 101);
-    --line-color: rgb(35 35 35);
-    --accent-color-1: rgb(255 233 35);
-    --accent-color-2: rgb(255 100 255);
-    --main-1: white;
 }
 
 /**************/
@@ -331,21 +335,6 @@ body {
 
     60% {
         transform: translateY(-1em);
-    }
-}
-
-/* ROTATE */
-.disappear {
-    animation: disappear 1s ease-out;
-}
-
-@keyframes disappear {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
     }
 }
 
