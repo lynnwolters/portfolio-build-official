@@ -1,9 +1,6 @@
 var cursor = document.querySelector('.cursor');
 var a = document.querySelectorAll('a');
 var button = document.querySelectorAll('button');
-var swapfietsHover = document.querySelectorAll('main section:nth-of-type(4) ul li:nth-of-type(1)');
-var tablewareBySharonHover = document.querySelectorAll('main section:nth-of-type(4) ul li:nth-of-type(2)');
-var cssArtHover = document.querySelectorAll('main section:nth-of-type(4) ul li:nth-of-type(3)');
 
 document.addEventListener('mousemove', function(e){
   var x = e.clientX;
@@ -41,35 +38,8 @@ button.forEach(item => {
   });
 })
 
-swapfietsHover.forEach(item => {
-  item.addEventListener('mouseover', () => {
-    cursor.classList.add('swapfiets-hover');
-    cursor.textContent = 'go';
-  });
-  item.addEventListener('mouseleave', () => {
-    cursor.classList.remove('swapfiets-hover');
-    cursor.textContent = '';
-  });
-})
 
-tablewareBySharonHover.forEach(item => {
-  item.addEventListener('mouseover', () => {
-    cursor.classList.add('tableware-by-sharon-hover');
-    cursor.textContent = 'go';
-  });
-  item.addEventListener('mouseleave', () => {
-    cursor.classList.remove('tableware-by-sharon-hover ');
-    cursor.textContent = '';
-  });
-})
 
-cssArtHover.forEach(item => {
-  item.addEventListener('mouseover', () => {
-    cursor.classList.add('css-art-hover');
-    cursor.textContent = 'go';
-  });
-  item.addEventListener('mouseleave', () => {
-    cursor.classList.remove('css-art-hover');
-    cursor.textContent = '';
-  });
-})
+
+
+

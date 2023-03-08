@@ -28,57 +28,17 @@
     opacity: .9;
 }
 
-.swapfiets-hover {
+.work-hover {
     width: 5em;
     transition: all .2s ease-out;
     opacity: 1;
 }
 
-.swapfiets-hover::after {
+.work-hover::after {
     content: "";
-    background-image: url(../img/swapfiets-hover.jpg);
-    background-size: contain;
+    background-color: var(--main-color);
     width: 14em;
     height: 20em;
-    background-color: var(--main-1);
-    border-radius: 2em;
-    top: -22em;
-    rotate: -4deg;
-    position: absolute;
-}
-
-.tableware-by-sharon-hover {
-    width: 5em;
-    transition: all .2s ease-out;
-    opacity: 1;
-}
-
-.tableware-by-sharon-hover::after {
-    content: "";
-    background-image: url(../img/swapfiets-hover.jpg);
-    background-size: contain;
-    width: 14em;
-    height: 20em;
-    background-color: var(--main-1);
-    border-radius: 2em;
-    top: -22em;
-    rotate: -4deg;
-    position: absolute;
-}
-
-.css-art-hover {
-    width: 5em;
-    transition: all .2s ease-out;
-    opacity: 1;
-}
-
-.css-art-hover::after {
-    content: "";
-    background-image: url(../img/swapfiets-hover.jpg);
-    background-size: contain;
-    width: 14em;
-    height: 20em;
-    background-color: var(--main-1);
     border-radius: 2em;
     top: -22em;
     rotate: -4deg;
