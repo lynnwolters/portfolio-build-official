@@ -28,19 +28,38 @@
     opacity: .9;
 }
 
-.work-hover {
+.hover-work {
     width: 5em;
     transition: all .2s ease-out;
-    opacity: 1;
+    opacity: .9;
 }
 
-.work-hover::after {
+.hover-work::after {
     content: "";
-    background-color: var(--main-color);
-    width: 14em;
-    height: 20em;
-    border-radius: 2em;
-    top: -22em;
-    rotate: -4deg;
+    width: 12em;
+    height: 18em;
+    background-color: var(--main-1);
+    background-size: contain;
     position: absolute;
+    top: -20em;
+    border-radius: 2em;
+    rotate: -4deg;
+    opacity: .5em;
 }
+
+.hover-work-1::after {
+    background-image: url(../img/swapfiets-hover.jpg);
+}
+
+.hover-work-2::after {
+    background-image: url(../img/tableware-by-sharon-hover.jpg);
+}
+
+.hover-work-3::after {
+    background-color: yellow;
+}
+
+.hover-work-4::after {
+    background-color: green;
+}
+

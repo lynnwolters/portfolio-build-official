@@ -136,13 +136,21 @@ main section:nth-of-type(5) > img {
     main section:nth-of-type(5) p {
         font-size: 0.7em;
     }
+
+    main section:nth-of-type(5) .email img {
+        width: 1.8em;
+    }
 }
 
 /**********/
 /* MOBILE */
 /**********/
 
-@media (max-width: 40em) {}
+@media (max-width: 40em) {
+    main section:nth-of-type(5) .email img {
+        width: 1.4em;
+    }
+}
 
 /****************/
 /* MOBILE SMALL */
@@ -163,5 +171,9 @@ main section:nth-of-type(5) > img {
 
     main section:nth-of-type(5) p {
         font-size: 0.6em;
+    }
+
+    main section:nth-of-type(5) .email img {
+        width: 1em;
     }
 }
