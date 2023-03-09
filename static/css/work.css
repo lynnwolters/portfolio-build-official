@@ -38,7 +38,7 @@ main section:nth-of-type(4) ul li a {
 
 main section:nth-of-type(4) ul li a h3 {
     font-size: 2em;
-    color: var(--p-color);
+    color: var(--title-color);
 }
 
 main section:nth-of-type(4) ul li a p {
@@ -102,6 +102,17 @@ main section:nth-of-type(4) ul li a p {
 @media (max-width: 40em) {
     main section:nth-of-type(4) ul li {
         height: 8em;
+    }
+    
+    main section:nth-of-type(4) ul li a {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    main section:nth-of-type(4) ul li a p {
+        text-align: left;
+        margin-top: .4em;
     }
 }
 
