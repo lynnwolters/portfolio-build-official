@@ -338,6 +338,76 @@ var scene42 = new ScrollMagic.Scene({
 })
 scene42.setClassToggle(".left-21", "visible-left-21");
 
+/* ----------------------------------------------------------- */
+
+/* ARROW */
+
+var scene44 = new ScrollMagic.Scene({
+    triggerHook: "onEnter",
+    reverse: true,
+})
+scene44.setClassToggle(".right-22", "visible-right-22");
+
+var scene45 = new ScrollMagic.Scene({
+})
+scene45.setClassToggle(".left-22", "visible-left-22");
+
+/* ----------------------------------------------------------- */
+
+/* ABOUT-MOBILE.EJS */
+
+var scene46 = new ScrollMagic.Scene({
+})
+scene46.setClassToggle(".right-23", "visible-right-23");
+
+var scene47 = new ScrollMagic.Scene({
+    triggerHook: "onEnter",
+    reverse: true,
+})
+scene47.setClassToggle(".left-23", "visible-left-23");
+
+/* ----------------------------------------------------------- */
+
+var scene48 = new ScrollMagic.Scene({
+    triggerElement: "main section:nth-of-type(1)",
+    triggerHook: "onEnter",
+    offset: 0,
+    reverse: true,
+})
+scene48.setClassToggle(".right-24", "visible-right-24");
+
+var scene49 = new ScrollMagic.Scene({
+})
+scene49.setClassToggle(".left-24", "visible-left-24");
+
+/* ----------------------------------------------------------- */
+
+var scene50 = new ScrollMagic.Scene({
+})
+scene50.setClassToggle(".right-25", "visible-right-25");
+
+var scene51 = new ScrollMagic.Scene({
+    triggerElement: "main section:nth-of-type(2)",
+    triggerHook: "onEnter",
+    offset: 0,
+    reverse: true,
+})
+scene51.setClassToggle(".left-25", "visible-left-25");
+
+/* ----------------------------------------------------------- */
+
+var scene52 = new ScrollMagic.Scene({
+    triggerElement: "main section:nth-of-type(3)",
+    triggerHook: "onEnter",
+    offset: 0,
+    reverse: true,
+})
+scene52.setClassToggle(".right-26", "visible-right-26");
+
+var scene53 = new ScrollMagic.Scene({
+})
+scene53.setClassToggle(".left-26", "visible-left-26");
+
 /****************/
 /* ROTATE SCENE */
 /****************/
@@ -403,5 +473,15 @@ controller.addScene([
     scene41,
     scene42,
     scene43,
+    scene44,
+    scene45,
+    scene46,
+    scene47,
+    scene48,
+    scene49,
+    scene50,
+    scene51,
+    scene52,
+    scene53,
 ]);
 

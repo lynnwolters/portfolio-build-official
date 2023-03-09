@@ -15,7 +15,6 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
     <script defer src="js/plugins/debug.addIndicators.js"></script>
     <script defer src="./js/scroll-magic.js"></script>
-    <script defer src="./js/hamburger-nav.js"></script>
     <script defer src="./js/custom-cursor.js"></script>
 
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
@@ -23,7 +22,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./css/about-me-mobile.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/skills-mobile.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/experience-mobile.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/contact-mobile.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/footer.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/custom-cursor.css">
 
@@ -38,31 +36,24 @@
     <nav>
         <a href="/index">Lynn Wolters / <br> Portfolio 2023</a>
         <ul>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <nav>
         <a href="/index">Lynn Wolters / <br> Portfolio 2023</a>
-        <button>Menu</button>
-        <nav>
-            <button>Close</button>
-            <ul>
-                <li><a href="/about-mobile">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <a href="/index">Home</a>
     </nav>
 
     <main>
 
         <section>
-            <div class="profile-picture-container">
+            <div class="profile-picture-container left-23">
                 <img class="profile-picture" src="./img/profile-picture-2.png" alt="profile-picture-2">
-                <img class="badge" src="./img/badge.svg" alt="badge">
             </div>
-            <p>My name is Lynn Wolters and I am a 23 year old Communication & Multimedia Design student in Amsterdam.
+            <p class="right-24">My name is Lynn Wolters and I am a 23 year old Communication & Multimedia Design student in Amsterdam.
                 <br> <br>
                 From an early age I have been fascinated by design and technology. That’s why I chose the path of
                 becoming a digital designer and front-end developer. My goal is to help clients with an unique
@@ -75,7 +66,7 @@
 
         <div class="blob pink middle"></div>
 
-        <section>
+        <section class="left-25">
             <h2>Skills i've learned so far</h2>
             <ul>
                 <h3>Branding</h3>
@@ -109,7 +100,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="right-26">
             <h2>Experience</h2>
             <ul>
                 <li><p>09/2019 - 01/2020</p></li>

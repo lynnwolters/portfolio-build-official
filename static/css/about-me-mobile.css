@@ -7,12 +7,9 @@ main section:nth-of-type(1) {
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 2em;
     margin: 6em 8em;
-    /* height: 100vh; */
 }
 
 main section:nth-of-type(1) .profile-picture-container {
-    /* height: 100%;
-    width: 100%; */
     grid-column: span 4;
     position: relative;
     aspect-ratio: 3/4;
@@ -25,17 +22,6 @@ main section:nth-of-type(1) .profile-picture {
     object-fit: cover;
     border: solid 0.1em var(--line-color);
     border-radius: 1000em;
-}
-
-main section:nth-of-type(1) .badge {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    border: solid 0.1em var(--line-color);
-    border-radius: 1000em;
-    width: 50%;
-    height: auto;
 }
 
 main section:nth-of-type(1) p {
@@ -105,10 +91,6 @@ main section:nth-of-type(1) p {
     main section:nth-of-type(1) .profile-picture {
         border-radius: 6em;
     }
-    
-    main section:nth-of-type(1) .badge {
-        width: 35%;
-    }
 }
 
 /****************/
@@ -118,10 +100,6 @@ main section:nth-of-type(1) p {
 @media (max-width: 22em) {
     main section:nth-of-type(1) {
         margin: 0 1.2em;
-    }
-
-    main section:nth-of-type(1) .badge {
-        width: 45%;
     }
 
     main section:nth-of-type(1) p {

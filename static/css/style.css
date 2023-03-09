@@ -197,6 +197,24 @@ body {
 
 .visible-right-21 {}
 
+.visible-right-22 {
+    animation: visible-top 2.2s ease-out;
+}
+
+.visible-right-23 {
+}
+
+.visible-right-24 {
+    animation: visible-right 1.6s ease-out;
+}
+
+.visible-right-25 {
+}
+
+.visible-right-26 {
+    animation: visible-right 1.6s ease-out;
+}
+
 @keyframes visible-right {
     from {
         opacity: 0;
@@ -300,6 +318,18 @@ body {
 
 .visible-left-21 {
     animation: visible-top-2 1.2s ease-out;
+}
+
+.visible-left-22 {}
+
+.visible-left-23 {
+    animation: visible-left 1.6s ease-out;
+}
+
+.visible-left-24 {}
+
+.visible-left-25 {
+    animation: visible-left 1.6s ease-out;
 }
 
 @keyframes visible-left {
